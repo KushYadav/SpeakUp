@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.AddCouncilPost">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/tbAddAdministration"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@color/LightGreen"
+        app:subtitleTextColor="@color/White"
+        app:titleTextColor="@color/White"></android.support.v7.widget.Toolbar>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/tbAddAdministration">
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:paddingBottom="50dp"
+            android:text="Council Post"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:background="@color/LightGrey"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <EditText
+                android:id="@+id/etAddCouncilPost"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Write your Post here..."
+                android:paddingBottom="15dp"
+                android:paddingEnd="5dp"
+                android:paddingStart="5dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnCancelCouncilPost"
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:background="@color/MatteBlue"
+                    android:text="Cancel"
+                    android:textColor="@color/White" />
+
+                <Button
+                    android:id="@+id/btnAddCouncilPost"
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:background="@color/MatteBlue"
+                    android:text="Post"
+                    android:textColor="@color/White" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </FrameLayout>
+</RelativeLayout>

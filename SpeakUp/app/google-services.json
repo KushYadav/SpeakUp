@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "627057876863",
+    "firebase_url": "https://speakup-e6c2b.firebaseio.com",
+    "project_id": "speakup-e6c2b",
+    "storage_bucket": "speakup-e6c2b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:627057876863:android:899608c816b527e9",
+        "android_client_info": {
+          "package_name": "com.example.hp.speakup"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "627057876863-e6r7k2bjhfr74iktpaph12b8mjqa0q99.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hp.speakup",
+            "certificate_hash": "27dc64ed49e6295c23e1cd32d35af52e7419bef3"
+          }
+        },
+        {
+          "client_id": "627057876863-ep2cdrhvsg85325j59rupd94si5f3tqn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAizOotOkkOCIVgBKLXm0JUtr5y_mxPNSA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "627057876863-ep2cdrhvsg85325j59rupd94si5f3tqn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
